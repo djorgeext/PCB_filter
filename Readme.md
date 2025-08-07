@@ -1,0 +1,1 @@
+PCB con amplificador - filtro para señal acústica de un sensor piezoeléctrico.
