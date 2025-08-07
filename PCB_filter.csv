@@ -1,0 +1,14 @@
+Id,Designation,Designator,Quantity,Footprint,,
+1,2.6k,R1,1,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,
+2,6.65k,R3,1,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,
+3,2.49k,"R4,R9,R8,R5",4,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,
+4,LM2904,U2,1,DIP-8_W7.62mm_Socket,,en la placa sólo aparece el socket pero también hay que comprar el amplificador
+5,3.65k,R2,1,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,
+6,1.07k,R7,1,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,
+7,100n,"C3,C2,C1,C4",4,C_Disc_D5.0mm_W2.5mm_P2.50mm,,
+8,Conn_01x03_Pin,J1,1,PinHeader_1x03_P2.54mm_Vertical,,
+9,Conn_01x01_Pin,J3,1,PinHeader_1x01_P2.54mm_Vertical,,
+10,Conn_01x02_Pin,J2,1,PinHeader_1x02_P2.54mm_Vertical,,
+11,6.34k,R6,1,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,
+12,AD620,U1,1,DIP-8_W7.62mm_Socket,,
+,,,,,,en la placa sólo aparece el socket pero también hay que comprar el amplificador
