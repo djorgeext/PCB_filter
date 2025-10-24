@@ -1,0 +1,84 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\users\david\My Documents\LTspice\PCB_filter\SMD_circuit.asc
+Start Time: Fri Oct 24 17:58:17 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = Gear
+abstol = 1e-06
+reltol = 0.01
+volttol = 1e-06
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.00100083
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+Gmin = 0.00100083
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 88.6364%
+vernier = 0.0625
+Source Step = 87.8995%
+Source Step = 87.9291%
+Source Step = 87.9587%
+Source Step = 87.9883%
+Source Step = 88.0179%
+Source Step = 88.0475%
+vernier = 0.00146484
+Source Step = 88.0919%
+Source Step = 88.1362%
+Source Step = 88.1806%
+Source Step = 88.225%
+Source Step = 88.2694%
+vernier = 0.00219727
+Source Step = 88.3338%
+Source Step = 88.4004%
+Source Step = 88.4669%
+Source Step = 88.5335%
+Source Step = 88.6001%
+vernier = 0.0032959
+Source Step = 88.6933%
+Source Step = 88.7932%
+Source Step = 88.8931%
+Source Step = 88.993%
+Source Step = 89.0928%
+vernier = 0.00494385
+Source Step = 89.2277%
+Source Step = 89.3775%
+Source Step = 89.5273%
+Source Step = 89.6771%
+Source Step = 89.8269%
+vernier = 0.00741577
+Source Step = 90.0217%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 88.6364%
+vernier = 0.0625
+Source stepping failed
+
+Pseudo Transient succeeded in finding the operating point at 850.322 ms.
+Heightened Def Con from 0.00174436 to 0.00174436
+Total elapsed time: 67.122 seconds.
+

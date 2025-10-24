@@ -1,0 +1,32 @@
+* C:\users\david\My Documents\LTspice\PCB_filter\SMD_circuit.asc
+XU1 N001 0 VCC 0 N005 VGND N008 N009 AD620
+V1 VCC 0 6
+R1 N008 N009 560
+R2 N002 N005 12k tol=5
+V2 N001 0 SINE(0 15m 600 0 0 0 4) AC 15m
+XU3 N006 N003 VCC 0 N003 LMX24_LM2902
+XU4 N007 Vout VCC 0 Vout LMX24_LM2902
+R3 N006 N002 27k tol=5
+R4 N004 N003 2.2k tol=5
+R5 N007 N004 2.2k tol=5
+C1 N006 VGND 10n
+C2 N007 VGND 10n
+C3 N003 N002 27n
+C4 Vout N004 510n
+R6 N011 VCC 33k
+R7 0 N011 10k
+XU2 N010 N011 vcc 0 N012 LMX24_LM2902
+R8 N010 Vout 7.8k
+R9 N012 0 100k
+R10 0 N010 7.8k
+R11 N011 N012 7.8k
+R12 N013 0 100k
+R13 VCC N013 100k
+XU6 N013 VGND VCC 0 VGND AD549
+.options reltol=0.01 abstol=1u vntol=1u method=gear
+.tran 20m
+.lib ADI1.lib
+.lib Z:\home\david\Documents\LTspice\PCB_filter\ad620.cir
+.lib Z:\home\david\Documents\LTspice\PCB_filter\LMx24\lmx24_lm2902.lib
+.backanno
+.end
