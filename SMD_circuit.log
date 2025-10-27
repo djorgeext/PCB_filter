@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\users\david\My Documents\LTspice\PCB_filter\SMD_circuit.asc
-Start Time: Fri Oct 24 17:58:17 2025
+Start Time: Mon Oct 27 15:42:17 2025
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -78,7 +78,6 @@ Source Step = 88.6364%
 vernier = 0.0625
 Source stepping failed
 
-Pseudo Transient succeeded in finding the operating point at 850.322 ms.
-Heightened Def Con from 0.00174436 to 0.00174436
-Total elapsed time: 67.122 seconds.
+Pseudo Transient succeeded in finding the operating point at 520.421 ms.
+Total elapsed time: 92.211 seconds.
 

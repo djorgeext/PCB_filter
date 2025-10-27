@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "smd_filter.kicad_pro",
+    "filename": "PCB_filter_smd.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -611,7 +611,7 @@
   },
   "sheets": [
     [
-      "5b01f997-cdbd-474e-a8a2-28344b281b2d",
+      "493a665d-ce7f-4715-85fa-f1407d839c73",
       "Root"
     ]
   ],
