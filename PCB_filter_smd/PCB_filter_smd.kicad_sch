@@ -1214,6 +1214,12 @@
 		(uuid "620024be-cf97-4fff-aeb6-5e4e9bbefdcb")
 	)
 	(junction
+		(at 92.71 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69df2ed8-0dc1-4e66-a75e-b8f75efb42ff")
+	)
+	(junction
 		(at 191.77 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1263,6 +1269,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 92.71) (xy 86.36 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01443a09-0f6b-4e44-b58e-41e539f974c9")
+	)
+	(wire
+		(pts
 			(xy 124.46 91.44) (xy 123.19 91.44)
 		)
 		(stroke
@@ -1270,6 +1286,16 @@
 			(type default)
 		)
 		(uuid "05ef52a1-3710-494e-a13d-a2b24bc235b4")
+	)
+	(wire
+		(pts
+			(xy 102.87 95.25) (xy 102.87 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076f8dfa-7276-4682-9c3d-001e2f638093")
 	)
 	(wire
 		(pts
@@ -1320,6 +1346,16 @@
 			(type default)
 		)
 		(uuid "14f1dc46-6763-481b-941f-f6890d87be53")
+	)
+	(wire
+		(pts
+			(xy 102.87 99.06) (xy 92.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15fb7d87-e829-47d4-92ac-f30488f5328e")
 	)
 	(wire
 		(pts
@@ -1633,6 +1669,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 82.55) (xy 92.71 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c0f77c5-cf03-4b4a-b998-900c28f415a9")
+	)
+	(wire
+		(pts
 			(xy 124.46 101.6) (xy 124.46 102.87)
 		)
 		(stroke
@@ -1760,6 +1806,16 @@
 			(type default)
 		)
 		(uuid "8bbc1c1d-cc8f-4b4e-bcfe-8e2d4ec40650")
+	)
+	(wire
+		(pts
+			(xy 80.01 95.25) (xy 88.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3034ee-1553-4fb6-869e-3015108fc789")
 	)
 	(wire
 		(pts
@@ -1913,16 +1969,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 92.71) (xy 86.36 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7caee57-1282-4e2d-81ee-a8a4586c7724")
-	)
-	(wire
-		(pts
 			(xy 226.06 123.19) (xy 226.06 132.08)
 		)
 		(stroke
@@ -1970,6 +2016,16 @@
 			(type default)
 		)
 		(uuid "c0c24a54-fdeb-4c72-8047-940670e10ee1")
+	)
+	(wire
+		(pts
+			(xy 102.87 87.63) (xy 102.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ad3fd1-2b11-426e-9c10-6134e58c0eaa")
 	)
 	(wire
 		(pts
@@ -2050,16 +2106,6 @@
 			(type default)
 		)
 		(uuid "ef8668b4-c6a5-4bd9-a852-8b46f798bc57")
-	)
-	(wire
-		(pts
-			(xy 76.2 95.25) (xy 88.9 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f003d66f-685c-41f6-bdef-9cf389b584e9")
 	)
 	(wire
 		(pts
@@ -2294,15 +2340,15 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 226.06 110.49 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0fd8a021-f277-4f48-b924-83b6eeb39c11")
 		(property "Reference" "R14"
-			(at 228.6 109.2199 0)
+			(at 223.52 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +2357,7 @@
 			)
 		)
 		(property "Value" "5.6k"
-			(at 228.6 111.7599 0)
+			(at 223.52 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +2366,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 224.282 110.49 90)
+			(at 227.838 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,6 +2606,76 @@
 			(project "PCB_filter_smd"
 				(path "/493a665d-ce7f-4715-85fa-f1407d839c73"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20cfc95e-eb54-406a-8f59-6757af431dc7")
+		(property "Reference" "C7"
+			(at 106.68 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 106.68 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 103.8352 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "766bc567-c4ee-4858-8475-956dec8a86b0")
+		)
+		(pin "2"
+			(uuid "69244d26-8605-4a7e-b4bb-d3ee2eaba7a7")
+		)
+		(instances
+			(project "PCB_filter_smd"
+				(path "/493a665d-ce7f-4715-85fa-f1407d839c73"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3589,7 +3705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief2x"
 			(at 77.47 55.88 0)
 			(effects
 				(font
@@ -3633,16 +3749,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 71.12 92.71 0)
+		(at 74.93 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "83a551d1-1f3f-4282-afe0-66d6c128dd57")
+		(uuid "8937284a-861b-49cc-838a-6745db6d7c7d")
 		(property "Reference" "J1"
-			(at 71.755 87.63 0)
+			(at 75.565 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3650,15 +3766,15 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 71.755 90.17 0)
+			(at 75.565 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 71.12 92.71 0)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief2x"
+			(at 74.93 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3667,7 +3783,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 92.71 0)
+			(at 74.93 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3676,7 +3792,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 71.12 92.71 0)
+			(at 74.93 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,10 +3801,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c52a779-682d-4ed8-ad52-c2e4e524f00c")
+			(uuid "874de935-a6f6-4a06-8380-82ccc19bd4b4")
 		)
 		(pin "2"
-			(uuid "2fae5e04-1358-4b48-a705-725e1e0d57df")
+			(uuid "e6234714-7815-487c-bb6e-f73eb278ec64")
 		)
 		(instances
 			(project "PCB_filter_smd"
