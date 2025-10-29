@@ -1269,16 +1269,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 92.71) (xy 86.36 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01443a09-0f6b-4e44-b58e-41e539f974c9")
-	)
-	(wire
-		(pts
 			(xy 124.46 91.44) (xy 123.19 91.44)
 		)
 		(stroke
@@ -1496,6 +1486,16 @@
 			(type default)
 		)
 		(uuid "37de50f2-6d97-4713-852a-08f0f27846fb")
+	)
+	(wire
+		(pts
+			(xy 81.28 92.71) (xy 86.36 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381b0fe8-e304-4901-9f8c-682d40f10db8")
 	)
 	(wire
 		(pts
@@ -1809,16 +1809,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 95.25) (xy 88.9 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f3034ee-1553-4fb6-869e-3015108fc789")
-	)
-	(wire
-		(pts
 			(xy 163.83 66.04) (xy 163.83 62.23)
 		)
 		(stroke
@@ -1986,6 +1976,16 @@
 			(type default)
 		)
 		(uuid "bc304c1b-0ae1-4344-b849-a9a3da60d09e")
+	)
+	(wire
+		(pts
+			(xy 81.28 95.25) (xy 88.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd393afe-d515-401a-9afb-7cb934cc2dae")
 	)
 	(wire
 		(pts
@@ -3705,7 +3705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief2x"
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief"
 			(at 77.47 55.88 0)
 			(effects
 				(font
@@ -3742,74 +3742,6 @@
 			(project "PCB_filter_smd"
 				(path "/493a665d-ce7f-4715-85fa-f1407d839c73"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 74.93 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8937284a-861b-49cc-838a-6745db6d7c7d")
-		(property "Reference" "J1"
-			(at 75.565 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 75.565 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief2x"
-			(at 74.93 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 74.93 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "874de935-a6f6-4a06-8380-82ccc19bd4b4")
-		)
-		(pin "2"
-			(uuid "e6234714-7815-487c-bb6e-f73eb278ec64")
-		)
-		(instances
-			(project "PCB_filter_smd"
-				(path "/493a665d-ce7f-4715-85fa-f1407d839c73"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4360,6 +4292,74 @@
 				(path "/493a665d-ce7f-4715-85fa-f1407d839c73"
 					(reference "U2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 76.2 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9f765b2-9b90-4dae-96d8-3cbfd6633d1c")
+		(property "Reference" "J1"
+			(at 76.835 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 76.835 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief"
+			(at 76.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 76.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48e1c8f2-4845-4c2e-a39a-bd64cab15358")
+		)
+		(pin "2"
+			(uuid "44272a55-af5f-441a-af4a-35f584cc1044")
+		)
+		(instances
+			(project "PCB_filter_smd"
+				(path "/493a665d-ce7f-4715-85fa-f1407d839c73"
+					(reference "J1")
+					(unit 1)
 				)
 			)
 		)
