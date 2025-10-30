@@ -219,6 +219,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.0,
+          "drill": 0.0
         }
       ],
       "zones_allow_external_fillets": false
@@ -464,7 +468,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PCB_filter_smd.kicad_pro",
+    "filename": "PCB_filter_1tol.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -624,7 +628,7 @@
   },
   "sheets": [
     [
-      "493a665d-ce7f-4715-85fa-f1407d839c73",
+      "32d7196b-4c83-49ec-b9d2-4ee5343cf3b2",
       "Root"
     ]
   ],
