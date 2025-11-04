@@ -1,0 +1,158 @@
+
+**** 07/31/22 02:40:26 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-trans"  [ C:\Users\a0500607\Desktop\LF444\lf444-pspicefiles\schematic1\trans.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "trans.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1m 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LF444
+X_U1         N00384 N00104 VCC VEE N00104 LF444
+V_V1         N00384 0  
++SIN 0 1 1K 0 0 0
+V_V2         0 VEE 12
+V_V3         VCC 0 12
+
+**** RESUMING trans.cir ****
+.END
+
+**** 07/31/22 02:40:26 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-trans"  [ C:\Users\a0500607\Desktop\LF444\lf444-pspicefiles\schematic1\trans.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.DX         
+          IS    1.000000E-15 
+
+
+**** 07/31/22 02:40:26 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-trans"  [ C:\Users\a0500607\Desktop\LF444\lf444-pspicefiles\schematic1\trans.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.JX         
+               PJF             
+         VTO   -2.33         
+        BETA   92.010000E-06 
+          IS   10.000000E-12 
+           N    3            
+
+
+**** 07/31/22 02:40:26 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-trans"  [ C:\Users\a0500607\Desktop\LF444\lf444-pspicefiles\schematic1\trans.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VCC)   12.0000  (  VEE)  -12.0000  (N00104)     .0050 (N00384)    0.0000     
+
+(X_U1.3)     .0025 (X_U1.4)   -1.5878 (X_U1.5)  -11.8020 (X_U1.6)  -11.8020     
+
+(X_U1.7)     .0050 (X_U1.8)    9.3700 (X_U1.9)    -.0011 (X_U1.10)   -9.3700    
+
+(X_U1.11)    -.0011                   (X_U1.15)    -.0011                       
+
+(X_U1.16) 25.00E-09                   (X_U1.17)    0.0000                       
+
+(X_U1.20)     .6350                   (X_U1.21)   -6.3450                       
+
+(X_U1.22)     .0050                   (X_U1.23)    -.0011                       
+
+(X_U1.24)     .0158                   (X_U1.25)    -.0058                       
+
+(X_U1.26)     .6350                   (X_U1.27)    -.6250                       
+
+(X_U1.29)     .6350                   (X_U1.30)   -6.3450                       
+
+(X_U1.31)  -11.8020                   (X_U1.49)    0.0000                       
+
+(X_U1.98)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         1.551E-11
+    V_V2        -1.486E-04
+    V_V3        -1.486E-04
+    X_U1.V2      9.372E-12
+    X_U1.V3      9.370E-12
+    X_U1.VA3     0.000E+00
+    X_U1.V6     -2.499E-05
+    X_U1.V7     -2.499E-05
+    X_U1.V5     -6.345E-12
+    X_U1.V4     -6.371E-13
+
+    TOTAL POWER DISSIPATION   3.60E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 07/31/22 02:40:26 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-trans"  [ C:\Users\a0500607\Desktop\LF444\lf444-pspicefiles\schematic1\trans.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        1.13
+

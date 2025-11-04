@@ -4,8 +4,6 @@ V1 VCC 0 6
 R1 N008 N009 560 tol=5
 R2 N001 N005 12k tol=5
 V2 N004 0 SINE(0 15m 200 0 0 0 8) AC 15m
-XU3 N006 N002 VCC 0 N002 LMX24_LM2902
-XU4 N007 Vout VCC 0 Vout LMX24_LM2902
 R3 N006 N001 27k tol=5
 R4 N003 N002 2.2k tol=5
 R5 N007 N003 2.2k tol=5
@@ -14,7 +12,6 @@ C2 N007 VGND 10n
 C3 N002 N001 22n
 R6 N011 VCC 33k tol=5
 R7 0 N011 10k tol=5
-XU2 N010 N011 vcc 0 N012 LMX24_LM2902
 R8 N010 Vout 7.8k tol=5
 R9 N012 0 100k
 R10 0 N010 7.8k tol=5
@@ -25,10 +22,13 @@ XU6 N013 VGND VCC 0 VGND AD549
 C4 Vout N003 33n
 C5 Vout N003 470n
 C6 N002 N001 4.7n
+XU5 N006 N002 VCC 0 N002 LMX24_LM2902
+XU2 N007 Vout VCC 0 Vout LMX24_LM2902
+XU3 N010 N011 VCC 0 N012 LMX24_LM2902
 .options reltol=0.01 abstol=1u vntol=1u method=gear
 .tran 20m
 .lib ADI1.lib
 .lib Z:\home\david\Documents\LTspice\PCB_filter\ad620.cir
-.lib Z:\home\david\Documents\LTspice\PCB_filter\LMx24\lmx24_lm2902.lib
+.lib Z:\home\david\Documents\LTspice\PCB_filter\LM124\lmx24_lm2902.lib
 .backanno
 .end

@@ -4,7 +4,7 @@ RECTANGLE Normal -64 -56 64 56
 WINDOW 0 0 -56 Bottom 2
 SYMATTR Prefix X
 SYMATTR Value LMX24_LM2902
-SYMATTR ModelFile C:\users\david\My Documents\LTspice\PCB_filter\LM2902N\lmx24_lm2902.lib
+SYMATTR ModelFile Z:\home\david\Documents\LTspice\PCB_filter\LM124\lmx24_lm2902.lib
 WINDOW 3 0 56 Top 2
 PIN -64 -16 LEFT 8
 PINATTR PinName IN+
